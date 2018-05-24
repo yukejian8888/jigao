@@ -1,0 +1,52 @@
+/* 本例子css */
+.dogo-slide-01 .slideBox{ height:230px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+.dogo-slide-01 .slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.dogo-slide-01 .slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.dogo-slide-01 .slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.dogo-slide-01 .slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.dogo-slide-01 .slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.dogo-slide-01 .slideBox .bd li{ zoom:1; vertical-align:middle; }
+.dogo-slide-01 .slideBox .bd img{width:100%;height:230px; display:block;  }
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.dogo-slide-01 .slideBox .prev,
+.dogo-slide-01 .slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.dogo-slide-01 .slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+.dogo-slide-01 .slideBox .prev:hover,
+.dogo-slide-01 .slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.dogo-slide-01 .slideBox .prevStop{ display:none;  }
+.dogo-slide-01 .slideBox .nextStop{ display:none;  }
+
+
+/* 本例子css */
+.dogo-slide-02 .picFocus{ margin:0 auto;  width:467px; border:1px solid #ccc; padding:5px;  position:relative;  overflow:hidden;  zoom:1;   }
+.dogo-slide-02 .picFocus .hd{ width:100%; padding-top:5px;  overflow:hidden; }
+.dogo-slide-02 .picFocus .hd ul{ margin-right:-5px;  overflow:hidden; zoom:1; }
+.dogo-slide-02 .picFocus .hd ul li{ padding-top:5px; float:left;  text-align:center;  }
+.dogo-slide-02 .picFocus .hd ul li img{ width:109px; height:65px; border:2px solid #ddd; cursor:pointer; margin-right:5px;   }
+.dogo-slide-02 .picFocus .hd ul li.on{ background:url("../images/icoUp.gif") no-repeat center 0; }
+.dogo-slide-02 .picFocus .hd ul li.on img{ border-color:#f60;  }
+.dogo-slide-02 .picFocus .bd li{ vertical-align:middle; }
+.dogo-slide-02 .picFocus .bd img{ width:467px; height:230px; display:block;  }
+
+
+/* 本例子css */
+.dogo-slide-03 .fullSlide{ width:100%;  position:relative;  height:410px; background:#000;  }
+.dogo-slide-03 .fullSlide .bd{ margin:0 auto; position:relative; z-index:0; overflow:hidden;  }
+.dogo-slide-03 .fullSlide .bd ul{ width:100% !important;  }
+.dogo-slide-03 .fullSlide .bd li{ width:100% !important;  height:410px; overflow:hidden; text-align:center;  }
+.dogo-slide-03 .fullSlide .bd li a{ display:block; height:410px; }
+
+.dogo-slide-03 .fullSlide .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; }
+.dogo-slide-03 .fullSlide .hd ul{ text-align:center; }
+.dogo-slide-03 .fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:42px; height:11px; margin:1px; overflow:hidden; background:#000;
+    filter:alpha(opacity=50);opacity:0.5;  line-height:999px;
+}
+.dogo-slide-03 .fullSlide .hd ul .on{ background:#f00;  }
+
+.dogo-slide-03 .fullSlide .prev,
+.dogo-slide-03 .fullSlide .next{  display:block;  position:absolute; z-index:1; top:50%; margin-top:-30px; left:15%;  z-index:1; width:40px; height:60px; background:url(../images/slider-arrow2.png) -126px -137px #000 no-repeat;  cursor:pointer; filter:alpha(opacity=50);opacity:0.5; display:none;  }
+.dogo-slide-03 .fullSlide .next{ left:auto; right:15%; background-position:-6px -137px; }
+
+
+

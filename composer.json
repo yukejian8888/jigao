@@ -1,0 +1,85 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "laravelcollective/html": "^5.3.0",
+        "laravel/scout": "^1.1",
+        "intervention/image": "^2.3",
+        "guzzlehttp/guzzle": "^6.2",
+        "overtrue/laravel-socialite": "~1.0",
+        "overtrue/wechat": "~3.1",
+        "jeremeamia/superclosure": "~2.2.0",
+        "nikic/php-parser": "2.0",
+        "simplesoftwareio/simple-qrcode": "~1",
+        "toplan/phpsms": "~1.6.0",
+        "overtrue/laravel-ueditor": "~1.0",
+        "jaeger/querylist": "^3.1",
+        "jenssegers/agent": "^2.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*",
+        "gregwar/captcha": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files":[
+            "app/helpers/custom_function.php",
+            "app/helpers/user_group_function.php",
+            "app/helpers/user_info_function.php",
+            "app/helpers/content_info_function.php",
+            "app/helpers/album_function.php",
+            "app/helpers/common_function.php",
+            "app/helpers/wechat_function.php",
+            "app/helpers/wechat_pay_function.php",
+            "app/helpers/oauth_function.php",
+            "app/helpers/formdesign_function.php",
+			"app/helpers/infinite_function.php",
+			"app/helpers/office_function.php",
+            "app/helpers/phone_function.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

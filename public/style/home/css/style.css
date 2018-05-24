@@ -1,0 +1,569 @@
+.dogo-page-content {
+    background: #f5f5f5;
+    height: auto;
+    overflow: hidden;
+}
+
+.dogo-custom-login {
+    background-image: url("../images/bg_01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*filter:blur(0.02rem);妯＄硦澶勭悊*/
+}
+
+.dogo-custom-01 {
+    height: 100px;
+}
+
+.dogo-custom-01 h1 {
+    line-height: 90px;
+}
+
+.dogo-custom-01 h1 a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.dogo-custom-article-info {
+    background: #fff;
+}
+
+.dogo-sortmenu-05 {
+}
+
+.dogo-sortmenu-05 .block-bd {
+    background: #f5f5f5;
+}
+
+.dogo-sortmenu-05 .block-bd .line {
+}
+
+.dogo-sortmenu-05 .block-bd .line li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.dogo-sortmenu-05 .block-bd .line li:hover {
+    background: #f5f5f5;
+}
+
+.dogo-sortmenu-05 .block-bd .line li .fa-icon {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.dogo-sortmenu-05 .block-bd .line li a {
+    color: #444;
+    font-size: 14px;
+    display: block;
+}
+
+.dogo-sortmenu-05 .block-bd .line li a:hover {
+    color: #f04134;
+}
+
+.dogo-ceiling-02 {
+    background-color: #222;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.dogo-ceiling-02 .block-bd .el-dropdown {
+    color: #fff;
+    font-size: 12px;
+}
+
+.dogo-ceiling-02 .block-bd .avatar {
+    display: inline-block;
+}
+
+.dogo-ceiling-02 .block-bd .avatar img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.dogo-ceiling-02 .block-bd li a {
+    color: #fff;
+}
+
+.dogo-ceiling-02 .block-bd li {
+    float: left;
+    padding: 0 4px;
+}
+
+.dogo-slide-06 .focusBox {
+    width: 100%;
+    height: 300px;
+}
+
+.dogo-slide-06 .focusBox .pic img {
+    width: 100%;
+    height: 300px;
+}
+
+.dogo-article-list-04 {
+    height: auto;
+    overflow: hidden;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+.dogo-article-list-04 .block-hd {
+}
+
+.dogo-article-list-04 .block-hd h3 {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 800;
+}
+
+.dogo-article-list-04 .block-bd {
+}
+
+.dogo-article-list-04 .block-bd .pic img {
+    width: 80px;
+    height: 70px;
+}
+
+.dogo-article-list-04 .block-bd .title {
+    height: 66px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.dogo-article-list-04 .block-bd .title a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.dogo-article-list-04 .block-bd .title a:hover {
+    color: #f04134;
+}
+
+.dogo-article-list-04 .block-bd .time {
+    line-height: 20px;
+    height: 20px;
+    color: #a4abb1;
+}
+
+.dogo-article-list-09 {
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+}
+
+.dogo-article-list-09 .block-bd {
+}
+
+.dogo-article-list-09 .block-bd .line {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.dogo-article-list-09 .block-bd .one .pic img {
+    width: 100%;
+    height: 110px;
+}
+
+.dogo-article-list-09 .block-bd .one .title {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    margin: 8px 0;
+}
+
+.dogo-article-list-09 .block-bd .one .title a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dogo-article-list-09 .block-bd .one .sub-title {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.dogo-article-list-09 .block-bd .one .sub-title span {
+    display: inline;
+    margin-right: 5px;
+}
+
+.dogo-article-list-09 .block-bd .one .avatar img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.dogo-article-list-09 .block-bd .two .pic img {
+    width: 100%;
+    height: 100px;
+}
+
+.dogo-article-list-09 .block-bd .two .title {
+    height: 60px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.dogo-article-list-09 .block-bd .two .title a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dogo-article-list-09 .block-bd .two .sub-title {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.dogo-article-list-09 .block-bd .two .sub-title span {
+    display: inline;
+    margin-right: 5px;
+}
+
+.dogo-article-list-09 .block-bd .two .avatar img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.dogo-article-list-08 {
+    height: auto;
+    overflow: hidden;
+    padding: 5px 10px;
+    background: #fff;
+
+}
+
+.dogo-article-list-08 .block-hd h3 {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 800;
+}
+
+.dogo-article-list-08 .block-bd ul {
+}
+
+.dogo-article-list-08 .block-bd ul li {
+    margin: 5px 0;
+}
+
+.dogo-article-list-08 .block-bd ul li .title {
+    font-weight: 400;
+    line-height: 23px;
+    overflow: hidden;
+}
+
+.dogo-article-list-08 .block-bd ul li .title span {
+    display: inline;
+}
+
+.dogo-article-list-08 .block-bd ul li .number {
+    line-height: 20px;
+    color: #fff;
+    padding: 2px 10px;
+}
+
+.dogo-article-list-08 .block-bd ul li .title a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dogo-article-list-08 .block-bd ul li .time {
+    color: #a4abb1;
+    line-height: 20px;
+}
+
+.dogo-footer-02 {
+    background-color: #333;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.dogo-footer-02 .block-bd .sns-info ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+.dogo-footer-02 .block-bd a {
+    color: #fff;
+}
+
+.dogo-footer-02 .block-bd .sns-info img.code {
+    width: 100px;
+    height: 100px;
+}
+
+.dogo-footer-02 .block-bd .sns-info .sns-icon img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.dogo-block-08 {
+    height: auto;
+}
+
+.dogo-block-08 .block-bd {
+}
+
+.dogo-block-08 .block-bd span {
+    display: inline-block;
+}
+
+.dogo-block-08 .block-bd .title span {
+    margin-right: 5px;
+}
+
+.dogo-block-08 .block-bd .title .h_title_en .icon {
+    font-size: 15px;
+}
+
+.dogo-block-08 .block-bd .title .h_title_en {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 5px 5px 0 0;
+}
+
+.dogo-block-08 .block-bd .title .h_title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+.dogo-block-08 .block-bd .title .desc {
+    font-size: 12px;;
+}
+
+.dogo-block-08 .block-bd .sub_title span {
+    margin-top: 10px;
+}
+
+.dogo-block-08 .block-bd .sub_title span a {
+    color: #f04134;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dogo-block-08 .block-bd .sub_title span a:hover {
+    color: #f04134;
+}
+
+.dogo-article-info-010 {
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+}
+
+.dogo-article-info-010 .block-hd {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.dogo-article-info-010 .block-hd .title {
+    line-height: 30px;
+}
+
+.dogo-article-info-010 .block-hd .title h3 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #222;
+}
+
+.dogo-article-info-010 .block-hd .desc {
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 0;
+}
+.dogo-article-info-010 .block-hd .desc .url{
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.dogo-article-info-010 .block-hd .desc span {
+    display: inline;
+}
+
+.dogo-article-info-010 .block-bd {
+}
+
+.dogo-article-info-010 .block-bd .content {
+    font-size: 16px;
+    line-height: 28px;
+    color: #222;
+    word-wrap: break-word;
+}
+
+.dogo-article-info-010 .block-bd .content img {
+    max-width: 100%;
+    display: block;
+    margin: 15px 0;
+}
+
+.dogo-login-02 {
+}
+
+.dogo-login-02 .block-bd {}
+.dogo-login-02 .block-bd .line {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+.dogo-input {
+    height: 40px;
+    line-height: 40px;
+    display: inline;
+    border: 1px solid rgba(219, 219, 219, 0.39);
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #000;
+    width: 98%;
+    background: rgba(255, 255, 255, 0.95);
+}
+.dogo-input:focus{
+    border: 1px solid #f00;
+}
+
+.dogo-login-02 .block-bd .line .text-title {
+    font-size: 14px;
+}
+
+.dogo-login-02 .block-bd .line .text-input {
+    /*width: 100%;*/
+    font-size: 14px;
+    display: inline;
+    position: relative;
+}
+
+.dogo-login-02 .block-bd .line .text-sub-title {}
+.dogo-login-02 .block-bd .line .text-sub-title span{
+    display: inline;
+    margin: 0 20px;
+}
+.dogo-login-02 .block-bd .line .text-sub-title a{
+    font-size: 14px;
+}
+
+.dogo-custom-login{
+    height: 600px;
+}
+.dogo-custom-login-form{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.dogo-article-list-011{
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+}
+.dogo-article-list-011 .block-bd{
+}
+.dogo-article-list-011 .block-bd .line{}
+
+.dogo-article-list-011 .block-bd .one .title{
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    margin: 8px 0;
+}
+.dogo-article-list-011 .block-bd .one .title a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.dogo-article-list-011 .block-bd .one .sub-title{
+    line-height: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+}
+.dogo-article-list-011 .block-bd .one .sub-title span{
+    display: inline;
+    margin-right: 5px;
+}
+.dogo-article-list-011 .block-bd .one .avatar img{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.dogo-article-list-011 .block-bd .one .content{
+    font-size: 15px;
+    color: #333;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+
+.dogo-block-03 {
+    line-height: 50px;
+}
+.dogo-block-03 .block-bd {
+    min-height: 70px;
+    padding: 20px 0;
+}
+.dogo-block-03 .block-bd .title {
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+}
+.dogo-block-03 .block-bd .desc {
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+}
+
+
+.dogo-block-010 {
+    height: auto;
+    color: #fff;
+}
+.dogo-block-010 .block-bd a {
+    color: #fff;
+}
+.dogo-block-010 .block-bd {
+    height: auto;
+}
+.dogo-block-010 .block-bd a:hover {
+    color: #fff;
+}
+.dogo-block-010 .block-bd a:hover .box {
+    opacity: 0.8;
+}
+.dogo-block-010 .block-bd .box {
+    padding: 30px 0;
+    border-radius: 3px;
+}
+.dogo-block-010 .block-bd .pic {
+    font-size: 50px;
+    height: 80px;
+    line-height: 80px;
+}
+.dogo-block-010 .block-bd .title {
+    font-size: 18px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+}
+.dogo-block-010 .block-bd .desc {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+}

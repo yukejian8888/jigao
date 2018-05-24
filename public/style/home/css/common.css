@@ -1,0 +1,89 @@
+/**common**/
+body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #6C6C6C;
+    font-family: "宋体","Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB",Arial,sans-serif;
+}
+*,ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+a:hover{
+    color: #F40;
+    text-decoration: none;
+}
+label.el-form-item__label{font-size: 13px;}
+.dogo-wp100{
+    width: 100%;
+    margin: 0;
+}
+.dogo-wp12{
+    width: 1200px;
+    margin: 0 auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.dogo-padding-10{
+    padding: 10px;
+}
+.dogo-padding-15{
+    padding: 15px;
+}
+.dogo-padding-20{
+    padding: 20px;
+}
+.dogo-clear{
+    clear: both;
+}
+.dogo-blank-5{
+    height: 5px;
+}
+.dogo-blank-10{
+    height: 10px;
+}
+.dogo-blank-20{
+    height: 20px;
+}
+.dogo-padding-left-10{
+    padding-left: 10px;
+}
+.dogo-margin-10{
+    margin: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.dogo-border{
+    border: 1px solid #e3deed;
+    border-radius: 4px;
+}
+.dogo-border-dashed{
+    border: 2px dashed #e3deed;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.adminsir-icon{
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}

@@ -1,0 +1,53 @@
+.panel .table{
+    border: 1px solid #eeeeee;
+}
+.panel-body{
+    padding: 10px 15px;
+}
+/*设置列表页面操作相关字体的样式*/
+.dogo-text-links a{
+    color: #515253;
+}
+.dogo-text-links a:hover{
+    text-decoration:none;
+    color: #6b6c6c;
+}
+.content-wrapper > h3, .content-wrapper > .content-heading{
+    font-size: 18px;
+}
+.dogo-color-black{
+    color: #000;
+}
+.dogo-border{
+    border: 1px solid #ccc;
+}
+.dogo-flow-01{}
+.dogo-warp-approval{
+    margin: 5px 0;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+.dogo-warp-approval span{
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 0 3px;
+    display: inline-block;
+}
+.dogo-font-close{
+    display: none;
+
+}
+.dogo-warp-approval:hover .dogo-border{
+    border-color: #f00;
+}
+.dogo-warp-approval:hover .dogo-font-close{
+    display: inline-block;
+    top: -6px;
+    right: -2px;
+    position: absolute;
+    color: #f00;
+    background: #fff;
+    cursor: pointer;
+}
+
